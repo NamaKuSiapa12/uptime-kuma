@@ -81,7 +81,7 @@ class Discord extends NotificationProvider {
                 let discordupdata = {
                     username: discordDisplayName,
                     embeds: [{
-                        title: "✅ Your service " + monitorJSON["name"] + " is up! ✅",
+                        title: "<a:up:946014362475331594> Your service " + monitorJSON["name"] + " is up! <a:up:946014362475331594>",
                         color: 65280,
                         timestamp: heartbeatJSON["time"],
                         fields: [
